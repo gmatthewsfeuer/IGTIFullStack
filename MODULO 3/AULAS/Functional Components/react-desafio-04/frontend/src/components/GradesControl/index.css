@@ -1,0 +1,34 @@
+.tables {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.tables table {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+  border-collapse: separate;
+}
+
+.tables table th {
+  width: 20%;
+}
+
+.grade {
+  border-radius: 50%;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.goodGrade {
+  background: skyblue;
+}
+
+.badGrade {
+  background: salmon;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Números por Extenso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+	<body>
+		<main>
+      <div class="container">
+        <h1 class="center">Números por Extenso</h1>
+  
+        <div class="container content">
+          <div class="row">
+            <label for="rangeNumber" class="range-field col s12">
+              Escolha um número entre 0 e 999:
+              <input type="range" value="0" name="rangeNumber" id="rangeNumber" min="0" max="999" />
+            </label>
+          </div>
+          <div class="row">
+            <label for="actualNumber" class="input-field col s12">
+              Número atual:
+              <input disabled type="number" name="actualNumber" id="actualNumber" class="validate" placeholder="0">
+            </label>
+          </div>
+          <div class="row">
+            <label for="extensiveNumber" class="input-field col s12">
+              Número por extenso:
+              <input disabled type="text" name="extensiveNumber" id="extensiveNumber" class="validate" placeholder="zero">
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+	</body>
+</html>
